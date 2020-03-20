@@ -4,6 +4,7 @@ while genero != 'Feminino' and genero != 'Masculino':
     print('insira apenas masculino ou feminino')
     genero = input('Qual seu genero:').title()
 
+
 Permi = input('Qual seu nivel de acesso:').title()
 while Permi != 'Adm' and Permi != 'Usr' and Permi != 'Guest'and Permi!= 'Sem Nivel':
     Permi =input('Coloque um dos niveis: Adm, Usr ou Guest.\nCaso nao tenha um nivel de acesso digite Sem nivel:').title()
