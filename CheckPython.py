@@ -9,4 +9,4 @@ for x in resultado:
 if resultado == []:
     print(f'Não foram encontrados emails com o parametro "{pergunta}"')
 else:
-    print(f'Foram encontraos esses emails com o parametro "{pergunta}":')
+    print(f'Foram encontrados esses emails com o parametro "{pergunta}":')
